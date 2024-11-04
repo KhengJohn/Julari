@@ -4,7 +4,9 @@ const BecomeAgent = () => {
   return (
     <div className="h-full lg:h-full flex flex-col justify-center items-center w-full p-10 lg:p-24 gap-6 bg-[#F7F7FD]">
       <div className="flex flex-col justify-between gap-5 items-center w-5/6 lg:w-3/5">
-        <h2 className="text-3xl font-bold text-[#002A72]">Become an Agent!!!</h2>
+        <h2 className="text-3xl font-bold text-[#002A72]">
+          Become an Agent!!!
+        </h2>
         <span className="text-xs font-light text-[#002A72]">
           Do you want to work as a freelancer with Julari Real Homes?
         </span>
@@ -20,7 +22,9 @@ const BecomeAgent = () => {
             Submit
           </button>
         </div>
-        <span className="text-xs font-light text-[#002A72]">Join 1000+ other agents in Julari Real Homes</span>
+        <span className="text-xs font-light text-[#002A72]">
+          Join 1000+ other agents in Julari Real Homes
+        </span>
       </div>
     </div>
   );

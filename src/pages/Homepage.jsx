@@ -1,9 +1,11 @@
-import React from 'react'
-import Index from '../components/pages/homepage/Index'
+import React from "react";
+import Index from "../components/pages/homepage/Index";
 const Homepage = () => {
   return (
-    <div><Index /></div>
-  )
-}
+    <div>
+      <Index />
+    </div>
+  );
+};
 
-export default Homepage
+export default Homepage;

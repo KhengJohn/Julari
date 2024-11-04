@@ -117,7 +117,7 @@ const WeMakeItEasy = () => {
           <span className="text-3xl text-[#FFF] font-bold">736</span>{" "}
           <div>
             <span className="text-[15px] font-extralight text-xs text-[#fff]">
-            Daily Completed Transactions
+              Daily Completed Transactions
             </span>
           </div>
         </div>

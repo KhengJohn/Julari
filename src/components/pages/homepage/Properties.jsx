@@ -19,17 +19,17 @@ const propertiesData = [{}, {}, {}, {}, {}, {}];
 const TabContent1 = () => {
   return (
     <div className="flex justify-between items-center w-full">
-      <div className="flex flex-row col-span-3 flex-wrap justify-evenly lg:justify-between w-full gap-y-10">
+      <div className="flex flex-row col-span-1 lg:col-span-3 flex-wrap justify-evenly lg:justify-between w-full gap-y-10">
         {propertiesData.map((items) => (
           <div className="flex flex-col rounded-lg">
-            <div className="flex w-[330px] h-[150px]  rounded-t-lg">
+            <div className="flex w-full lg:w-[330px] h-[150px]  rounded-t-lg">
               <img
                 src={julariRiagtWay}
                 alt="julari real homes"
                 className="w-full h-full rounded-t-lg"
               />
             </div>
-            <div className="flex flex-col justify-between h-[185px] w-[330px] rounded-b-lg border p-5">
+            <div className="flex flex-col justify-between h-[185px] w-full lg:w-[330px] rounded-b-lg border p-5">
               <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-[#3AB5FF]">
                   N2,999{" "}

@@ -110,7 +110,7 @@ const WhyUs = () => {
                 {items.icon}
               </div>
             </div>
-            <div className="flex flex-col w-5/6 gap-2">
+            <div className="flex flex-col lg:w-5/6 gap-2">
               <span className="text-[20px] font-bold text-[#002A72] ">
                 {items.title}
               </span>

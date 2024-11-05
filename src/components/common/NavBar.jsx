@@ -265,7 +265,9 @@ const NavBar = () => {
               : "opacity-0 pointer-events-none"
           }`}
         >
-          <div className="flex flex-col px-4 md:px-0 gap-3">
+          <div
+            className="flex flex-col px-4 md:px-0 gap-3"
+          >
             <span className="block text-xs ml-3 uppercase text-red cursor-pointer">
               Manage Property
             </span>

@@ -42,7 +42,7 @@ const heroData = [
 const Tab = ({ label, isActive, onClick }) => {
   return (
     <button
-      className={`py-2  lg:px-6 focus:outline-none border-b border-[#3AB5FF] bg-white ${
+      className={`py-2  lg:px-6 focus:outline-none border-b border-[#3AB5FF] lg:bg-white ${
         isActive ? "border-b-4 border-[#3AB5FF] text-[#3AB5FF]" : " "
       }`}
       onClick={onClick}
